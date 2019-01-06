@@ -36,7 +36,7 @@
 
     if (lang != 'go') {
       // not golang -> hide source code
-      $src.find('js-area-code').slideUp()
+      $src.children('.js-area-code').slideUp()
     }
   });
 
