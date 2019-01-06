@@ -5,7 +5,7 @@ github: //github.com/vnspoj/top-interview-questions
 about: Solution for Top Interview Questions on leatcode
 # disqus_shortname: vnspoj
 # google_analytics: UA-XXXXXXXX-Y
-avatar_url: /top-interview-questions/static/img/favicon.png
+avatar_url: /static/img/favicon.png
 email: tutorialspoj@gmail.com
 
 username: vnspoj
