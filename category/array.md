@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: array
+categories: Array
 title: Array
-permalink: /category/array
+permalink: /category/Array
 ---
