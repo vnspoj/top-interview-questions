@@ -5,15 +5,15 @@ github: //github.com/vnspoj/top-interview-questions
 about: Solution for Top Interview Questions on leatcode
 # disqus_shortname: vnspoj
 # google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpeg
+avatar_url: /top-interview-questions/static/img/avatar.jpeg
 email: tutorialspoj@gmail.com
 
 username: vnspoj
 repo: top-interview-questions
 
 social:
-    - icon: fa-facebook
-      link: "//facebook.com/huynhsamha"
+    # - icon: fa-facebook
+      # link: "//facebook.com/huynhsamha"
     - icon: fa-twitter
       link: "//twitter.com/huynhsamha"
     - icon: fa-linkedin
