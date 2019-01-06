@@ -4,7 +4,7 @@ title: About Us
 permalink: /about
 ---
 
-Solution for top interview questions on [leatcode](https://leetcode.com/problemset/all/?listId=wpwgkgt)
+Solution for top interview questions on [leetcode](https://leetcode.com/problemset/all/?listId=wpwgkgt)
 
 <!-- vnspoj.github.io_ads_post_upper_related -->
 <div style="margin-top: 50px; margin-bottom: 30px">
