@@ -32,6 +32,11 @@
         $this.children('i.fa').removeClass('fa-eye').addClass('fa-eye-slash');
       }
     });
+
+    if (lang != 'go') {
+      // not golang -> hide source code
+      $src.find('js-toggle-code').slideUp()
+    }
   });
 
 })();
