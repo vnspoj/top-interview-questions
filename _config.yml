@@ -1,6 +1,6 @@
 title: Top Interview Questions
 description: Solution for Top Interview Questions on leatcode
-author: "@huynhsamha"
+author: "Go Solution"
 github: //github.com/vnspoj/top-interview-questions
 about: Solution for Top Interview Questions on leatcode
 # disqus_shortname: vnspoj
@@ -10,6 +10,7 @@ email: tutorialspoj@gmail.com
 
 username: vnspoj
 repo: top-interview-questions
+org: //github.com/vnspoj
 
 social:
     - icon: fa-stack-overflow
