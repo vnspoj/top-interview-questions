@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reverse Integer"
-categories: [hash-table, array]
+categories: [math]
 code: reverse-integer
 src: [go, js, py]
 ---
