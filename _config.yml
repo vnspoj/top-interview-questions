@@ -38,7 +38,7 @@ urls:
     #   url: //github.com/vnspoj
 
 url: "//vnspoj.github.io"
-baseurl: ""
+baseurl: "/top-interview-questions"
 paginate: 50
 per_page: 50
 paginate_path: "/page/:num/"
