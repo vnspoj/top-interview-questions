@@ -9,13 +9,10 @@
 
   $('.js-single-src').each(function () {
     const $src = $(this);
-    const filename = $src.children('.js-filename-code').attr('value');
-    let lang = 'cpp';
-    if (filename && filename.split('.').length > 0) {
-      lang = filename.split('.')[1];
-    }
+    const lang = $src.children('.js-filename-code').attr('value');
+    const code = $src.children('.js-filename-code').attr('data-code');
 
-    $.get(`https://vnspoj.github.io/solution/src/${filename}`, (code) => {
+    $.get(`https://vnspoj.github.io/go-solution/${lang}/${code}.${lang}`, (code) => {
       const highlightCode = Prism.highlight(code, Prism.languages[lang]);
       $src.find('.js-source-code')
         .addClass(`language-${lang}`)

@@ -14,20 +14,15 @@ layout: default
 
 <div class="content">
   <h4>Problem:
-    <a href="//vn.spoj.com/problems/{{ page.code }}">
-      https://vn.spoj.com/problems/{{ page.code }}
+    <a href="//leetcode.com/problems/{{ page.code }}">
+      https://leetcode.com/problems/{{ page.code }}
     </a>
   </h4>
 
-  <h4>Solution:</h4>
+  <!-- <h4>Solution:</h4> -->
   <div class="post">
     {{ content }}
   </div>
-
-  <hr />
-  Hãy nhớ, suy ngẫm, suy nghĩ và làm thử trước khi xem source code dưới đây nhé.
-  <hr />
-
 
 <!-- vnspoj.github.io_ads_post_upper_source -->
 <div style="margin-top: 30px; margin-bottom: 30px">
@@ -39,21 +34,21 @@ layout: default
     data-full-width-responsive="true"></ins>
 </div>
 
-  <h4>Source Code:</h4>
+  <h4>Code</h4>
 
   {% if page.src %}
     {% for src in page.src %}
       <div class="js-single-src single-src">
-        <div class="js-filename-code filename-code" value="{{ src }}">{{ src }}</div>
+        <div class="js-filename-code filename-code" value="{{ src }}" data-code="{{ page.code }}">{{ src }}/{{ page.code }}.{{ src }}</div>
         <div class="btn-toolbar-code">
           <button class="js-toggle-code btn btn-success" data-visible="1">
             <span class="text">Hide</span>
             <i class="fa fa-eye-slash"></i>
           </button>
-          <a href="//github.com/vnspoj/solution/blob/master/src/{{ src }}" class="btn-tool" target="_blank">
+          <a href="//github.com/vnspoj/go-solution/blob/master/{{ src }}/{{ page.code }}.{{ src }}" class="btn-tool" target="_blank">
             <button class="btn btn-warning">View on Github <i class="fa fa-github"></i></button>
           </a>
-          <a download href="/solution/src/{{ src }}" class="btn-tool">
+          <a download href="/go-solution/{{ src }}/{{ page.code }}.{{ src }}" class="btn-tool">
             <button class="btn btn-primary">Download <i class="fa fa-download"></i></button>
           </a>
         </div>
