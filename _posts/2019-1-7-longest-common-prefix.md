@@ -3,7 +3,7 @@ layout: post
 title:  "Longest Common Prefix"
 categories: [string]
 code: longest-common-prefix
-src: [go]
+src: [go, cpp]
 difficulty: easy
 ---
 

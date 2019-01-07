@@ -4,7 +4,10 @@ title: About Us
 permalink: /about
 ---
 
-Solution for top interview questions on [leetcode](https://leetcode.com/problemset/all/?listId=wpwgkgt)
+Solution for [Top Interview Questions on Leetcode](https://leetcode.com/problemset/all/?listId=wpwgkgt), mainly use Golang, and also use Python, JavaScript, CPP and Java
+
+
+Please join with us on Github at [vnspoj](https://github.com/vnspoj)
 
 <!-- vnspoj.github.io_ads_post_upper_related -->
 <div style="margin-top: 50px; margin-bottom: 30px">

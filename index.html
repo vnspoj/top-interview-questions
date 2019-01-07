@@ -8,7 +8,20 @@ layout: default
 
   <ol class="posts">
     {% for post in paginator.posts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+      <li>
+        {% if post.difficulty == "easy" %}
+        <span class="label label-success custom-badge">
+        {% elsif post.difficulty == "medium" %}
+        <span class="label label-warning custom-badge">
+        {% elsif post.difficulty == "hard" %}
+        <span class="label label-danger custom-badge">
+        {% endif %}
+          {{ post.difficulty }}
+        </span>
+        &nbsp;
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        &nbsp;
+        &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
     {% endfor %}
   </ol>
 

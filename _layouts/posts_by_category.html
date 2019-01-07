@@ -4,9 +4,9 @@ layout: default
 <header class="post-header">
   <h1 class="post-title">
     {% if page.categories %}
-      Problems by category: {{ page.categories }}
+      Questions in Topic: {{ page.categories }}
     {% else %}
-      Categories
+      Topics
     {% endif %}
   </h1>
 </header>
@@ -28,7 +28,7 @@ layout: default
 
   {% if page.categories %}
   <!-- Specific category -->
-  {{ page.title }}
+  <h3>{{ page.title }}</h3>
   <hr />
   {% if site.categories[page.categories] %}
     {% for post in site.categories[page.categories] %}
@@ -48,14 +48,28 @@ layout: default
         {% endif %}
       {% endif %}
         <ul class="posts">
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+          <li>
+            {% if post.difficulty == "easy" %}
+            <span class="label label-success custom-badge">
+            {% elsif post.difficulty == "medium" %}
+            <span class="label label-warning custom-badge">
+            {% elsif post.difficulty == "hard" %}
+            <span class="label label-danger custom-badge">
+            {% endif %}
+              {{ post.difficulty }}
+            </span>
+            &nbsp;
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            &nbsp;
+            &raquo; <i><span>{{ post.date | date_to_string }}</span></i>
+          </li>
         </ul>
       {% if forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
   {% else %}
-    <p>There are no posts in this categories.</p>
+    <p>There are no posts in this topic.</p>
   {% endif %}
   <!-- End Specific category -->
   {% else %}
@@ -65,7 +79,7 @@ layout: default
 </div>
 
 <!-- vnspoj.github.io_ads_post_upper_related -->
-<div style="margin-top: 30px; margin-bottom: 30px">
+<div style="margin-top: 50px; margin-bottom: 50px">
   <ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-2949659900148168"
