@@ -481,3 +481,15 @@ input#js-search__input {
 	width: 60px !important;
 	display: inline-block;
 }
+
+.post-header {
+	h1 { display: inline-block; }
+	.badge-fix-post-title {
+		margin-left: 15px;
+		vertical-align: text-bottom;
+		.custom-badge {
+			font-size: 1.2em;
+			width: auto !important;
+		}
+	}
+}
