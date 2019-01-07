@@ -4,6 +4,7 @@ title:  "Reverse Integer"
 categories: [math]
 code: reverse-integer
 src: [go, js, py]
+difficulty: easy
 ---
 
 Given a 32-bit signed integer, reverse digits of an integer.
