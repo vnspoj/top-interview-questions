@@ -462,3 +462,14 @@ div.btn-share {
 				border-radius: 8px;
     }
 }
+
+
+// Override super search input
+input#js-search__input {
+	&.form-control {
+		&:focus {
+			border-color: $color-primary !important;
+			box-shadow: none !important;
+		}
+	}
+}
