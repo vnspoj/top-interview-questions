@@ -8,7 +8,13 @@
 
 input#js-search__input {
     font-size: 13px;
-    font-family: 'Muli', sans-serif;
+		font-family: 'Muli', sans-serif;
+		&.form-control {
+			&:focus {
+				border-color: $color-primary !important;
+				box-shadow: none !important;
+			}
+		}
 }
 
 .is-active .search__input {
