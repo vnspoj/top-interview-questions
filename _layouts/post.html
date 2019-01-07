@@ -24,6 +24,7 @@ layout: default
     {{ content }}
   </div>
 
+  <br>
   <h2>Solution:</h2>
   <h4>
     <a href="//leetcode.com/problems/{{ page.code }}/solution">
@@ -32,7 +33,7 @@ layout: default
   </h4>
 
 <!-- vnspoj.github.io_ads_post_upper_source -->
-<div style="margin-top: 30px; margin-bottom: 30px">
+<div style="margin-top: 50px; margin-bottom: 50px">
   <ins class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-2949659900148168"
@@ -41,7 +42,8 @@ layout: default
     data-full-width-responsive="true"></ins>
 </div>
 
-  <h4>Accepted Submissions:</h4>
+  <br>
+  <h2>Accepted Submissions:</h2>
 
   {% if page.src %}
     {% for src in page.src %}
@@ -78,7 +80,7 @@ layout: default
 </div>
 
 <!-- vnspoj.github.io_ads_post_upper_related -->
-<div style="margin-top: 30px; margin-bottom: 30px">
+<div style="margin-top: 50px; margin-bottom: 50px">
 <ins class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-2949659900148168"
@@ -95,7 +97,7 @@ layout: default
           {% if postHasSimilar == false and hasSimilar.size < 8 and post != page and tag == thisTag %}
             {% if hasSimilar.size == 0 %}
             <div class="panel-body">
-              <h4>Related Posts</h4>
+              <h3>Related Posts</h3>
               <ul>
             {% endif %}
                 <li class="relatedPost">

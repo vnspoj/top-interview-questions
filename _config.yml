@@ -3,7 +3,7 @@ description: Solution for Top Interview Questions on leetcode
 author: "Go Solution"
 github: //github.com/vnspoj/top-interview-questions
 about: Solution for Top Interview Questions on leetcode
-# disqus_shortname: vnspoj
+disqus_shortname: vnspoj
 # google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/favicon.png
 email: tutorialspoj@gmail.com
