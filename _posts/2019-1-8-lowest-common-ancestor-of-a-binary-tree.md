@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Two Sum"
-categories: [hash-table, array]
+title:  "Lowest Common Ancestor of a Binary Tree"
+categories: [tree]
 code: lowest-common-ancestor-of-a-binary-tree
 src: [go, cpp, js]
-difficulty: easy
+difficulty: medium
 ---
 
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
@@ -13,7 +13,7 @@ According to the definition of LCA on Wikipedia: *“The lowest common ancestor 
 
 Given the following binary tree: `root = [3,5,1,6,2,0,8,null,null,7,4]`
 
-<img src="../static/img/posts/lowest-common-ancestor-of-a-binary-tree.png" width="200px">
+<img src="/top-interview-questions/static/img/posts/lowest-common-ancestor-of-a-binary-tree.png" width="200px">
 
 Example 1:
 ```
