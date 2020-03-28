@@ -4,7 +4,7 @@ author: "Go Solution"
 github: //github.com/vnspoj/top-interview-questions
 about: Solution for Top Interview Questions on leetcode, mainly use Golang, and also use Python, JavaScript, CPP and Java
 # disqus_shortname: vnspoj
-google_analytics: UA-158907960-1
+google_analytics:
 avatar_url: /static/img/favicon.png
 email: tutorialspoj@gmail.com
 
